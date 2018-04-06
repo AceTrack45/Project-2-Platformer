@@ -1,0 +1,42 @@
+.background    { background: rgb(48, 46, 38);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: rgb(71, 64, 49);   }
+.floater        { background: rgb(109 ,109 ,109); }
+
+.actor   { position: absolute;  }
+.coin    { background: rgb(241, 229, 89); }
+.Aportal { background: rgb(9, 232,53);}
+.Bportal { background: rgb(244,105,244);}
+.Cportal { background: rgb(9,232,53); }
+.Dportal { background: rgb(244,105,244); }
+.Eportal { background: rgb(9,232,53);}
+.Fportal { background : rgb(9,232,53);}
+.Gportal { background : rgb(244,105,244);}
+.hazard  { background: rgb(9, 232, 120);}
+.hazard2 { background: rgb(9, 232, 120);}
+.hazard3 {background: rgb(9, 232, 120);}
+.hazard4 { background: rgb(9, 232, 120);}
+.transfer  { background: rgb(208, 255, 0);}
+.transfer2 { background: rgb(208, 255, 0);}
+.transfer3 {background: rgb(208, 255, 0);}
+.transfer4 { background: rgb(208, 255, 0);}
+.transfer5 { background: rgb(208, 255, 0);}
+.player { background: rgb(119, 230, 255); }
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
